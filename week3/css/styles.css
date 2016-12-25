@@ -1,74 +1,27 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   margin: 0px;
-  background-color: linen;
+  background-color: yellowgreen;
 }
 
-h1 {
-  text-align: center;
+.navbar {
+  background-color: darkgreen;
 }
 
-.container {
-  width: 100%;
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+  color: darkorange;
 }
 
-.inner-container {
-  width: 100%;
-  border: 1px solid black;
-  background-color: red;
-  height: 300px;
-  overflow: hidden;
-  padding: 10px;
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:hover{
+  color: orange;
 }
 
-.inner-header {
-  float: right;
-  position: relative;
-  top: -11px;
-  right: -11px;
-  padding: 3px 5px 3px 5px;
-  background-color: orange;
-  border: 1px solid black;
+.row {
+  margin: 10px;
 }
 
-.inner-container > p {
-  clear: both;
-  margin: 0px;
- 
+.content-block {
+  background-color: darkseagreen;
 }
 
-.section1, .section2, .section3
-{
-  float: left;
-  padding: 10px;
-}
-
-@media (min-width: 992px) {
-  .section1, .section2, .section3
-  {
-    width: 33.333%
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .section1, .section2
-  {
-    width: 50%
-  }  
-  .section3
-  {
-    width: 100%
-  }
-}
-
-@media (max-width: 767px) {
-  .section1, .section2, .section3
-  {
-    width: 100%
-  }
-}

@@ -2,31 +2,58 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/styles.css">
-        <title>HTML.CSS.JS - Week 2</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        <title>HTML.CSS.JS - Week 3</title>
     </head>
     <body>
-        <h1>Greetings, comrade!</h1>
-        <div class="container">
-            <div class="section1">
-                <div class="inner-container">
-                    <p class="inner-header">Vladimir Lenin</p>
-                    <p>Marxism, first developed by Karl Marx and Friedrich Engels, has been the foremost ideology of the communist movement. Marxism considers itself to be the embodiment of scientific socialism; rather than model an "ideal society" based on intellectuals' design, it is a non-idealist attempt at the understanding of society and history, through an analysis based in real life. Marxism does not see communism as a "state of affairs" to be established, but rather as the expression of a real movement, with parameters which are derived completely from real life and not based on any intelligent design. Marxism, therefore, does no blueprinting of a communist society; it only makes an analysis which concludes what will trigger its implementation, and discovers its fundamental characteristics based on the derivation of real life conditions.</p>
+
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header color-me">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-menu" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Food, LLC</a>
+                </div>                 
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="collapsed-menu">
+                    <ul class="nav navbar-nav">
+                        <li class="active visible-xs"><a href="#">Chicken</a></li>
+                        <li class="visible-xs"><a href="#">Beef</a></li>
+                        <li class="visible-xs"><a href="#">Sushi</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <h1 class="text-center">Our Menu</h1>
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-xs-12 content-block">
+                    <h2 class="text-center">Chicken</h2>
+                    <div class="text-justify">
+                        <p>The majority of hens in many countries are reared in battery cages, although the European Union Council Directive 1999/74/EC has banned the conventional battery cage in EU states from January 2012. These are small cages, usually made of metal in modern systems, housing 3 to 8 hens. The walls are made of either solid metal or mesh, and the floor is sloped wire mesh to allow the faeces to drop through and eggs to roll onto an egg-collecting conveyor belt. Water is usually provided by overhead nipple systems, and food in a trough along the front of the cage replenished at regular intervals by a mechanical chain.</p>
+                        <p>The cages are arranged in long rows as multiple tiers, often with cages back-to-back (hence the term 'battery cage'). Within a single shed, there may be several floors containing battery cages meaning that a single shed may contain many tens of thousands of hens. Light intensity is often kept low (e.g. 10 lux) to reduce feather pecking and vent pecking. Benefits of battery cages include easier care for the birds, floor eggs which are expensive to collect are eliminated, eggs are cleaner, capture at the end of lay is expedited, generally less feed is required to produce eggs, broodiness is eliminated, more hens may be housed in a given house floor space, internal parasites are more easily treated, and labor requirements are generally much reduced.</p>
+                        <p>In farms using cages for egg production, there are more birds per unit area; this allows for greater productivity and lower food costs. Floor space ranges upwards from 300 cm2 per hen. EU standards in 2003 called for at least 550 cm2 per hen. In the US, the current recommendation by the United Egg Producers is 67 to 86 in2 (430 to 560 cm2) per bird. The space available to battery hens has often been described as less than the size of a piece of A4 paper. Animal welfare scientists have been critical of battery cages because they do not provide hens with sufficient space to stand, walk, flap their wings, perch, or make a nest, and it is widely considered that hens suffer through boredom and frustration through being unable to perform these behaviours. This can lead to a wide range of abnormal behaviours,some of which are injurious to the hens or their cagemates.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="section2">
-                <div class="inner-container">
-                    <p class="inner-header">Karl Marx</p>
-                    <p>The origins of communism are debatable, and there are various historical groups, as well as theorists, whose beliefs have subsequently been described as communist. German philosopher Karl Marx saw primitive communism as the original, hunter-gatherer state of humankind from which it arose. For Marx, only after humanity was capable of producing surplus, did private property develop. The idea of a classless, egalitarian society first emerged in Ancient Greece.</p>
-                </div>
-            </div>
-            <div class="section3">
-                <div class="inner-container">
-                    <p class="inner-header">Friedrich Engels</p>
-                    <p>In its modern form, communism grew out of the socialist movement of 19th-century Europe. As the Industrial Revolution advanced, socialist critics blamed capitalism for the misery of the proletariat—a new class of urban factory workers who labored under often-hazardous conditions. Foremost among these critics were Marx and his associate Friedrich Engels. In 1848, Marx and Engels offered a new definition of communism and popularized the term in their famous pamphlet The Communist Manifesto.</p>
-                </div>
-            </div>
-        </div>
+            </div> <!-- row -->
+
+        </div> <!-- container-fluid -->
+
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
     </body>
 </html>
